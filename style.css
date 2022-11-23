@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box ;
+}
+
+.container{
+  max-width: 980px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+/* .head{
+  flex: 1 1 100%;
+  background-color: rgb(162, 187, 21);
+} */
+
+.sidebar{
+  flex: 0 0 60%;
+  background-color: aquamarine;
+  margin: 10px;
+}
+.content{
+  flex: 0 0 30%;
+  margin: 10px;
+  background-color: rgb(96, 120, 163);
+  
+}
